@@ -16,10 +16,6 @@
 
 ---
 
-Professional 404 Error Page by **Abhishek Jadhav** — Web Developer and first-year BCA student at VIIT, Baramati. Built with **HTML5 + CSS3 + Vanilla JavaScript**: a polished, premium error page with a giant gradient `404`, a pure-CSS floating browser window + lost astronaut illustration, friendly copy, and working navigation — no external images, no frameworks, no build step.
-
-> **Internship attribution:** 45-day Web Development Internship at **Veda Technology** — Day 30: Professional 404 Error Page.
-
 ## Files
 
 | File | Purpose |
@@ -83,26 +79,6 @@ Quick syntax check:
 ```powershell
 node --check script.js
 ```
-
-## Testing Checklist
-
-- [x] 404 page renders centered on desktop, laptop, tablet, and mobile.
-- [x] Pure-CSS illustration (browser + astronaut + planet) shows without any external images.
-- [x] `Back to Homepage` navigates to `homepage.html`.
-- [x] `Go Back` uses `history.back()` when a previous page exists, and falls back to `homepage.html` on direct visits.
-- [x] Requested-path chip shows the real host + path on http(s) and a friendly placeholder on `file://` (no local path leak).
-- [x] Homepage hero buttons are centered at all widths.
-- [x] All buttons/links have visible hover and `:focus-visible` states.
-- [x] Keyboard navigation works (Tab to buttons, Enter/Space to activate); heading receives focus on landing.
-- [x] No horizontal scrolling at any width (320px and up).
-- [x] `prefers-reduced-motion` disables float/twinkle/orbit animations.
-- [x] No JavaScript console errors; no broken links or assets.
-
-## Limitations
-
-- `index.html` and `404.html` are identical duplicates by design (hosting conventions); edit both or keep `404.html` as a thin copy if the project grows.
-- `homepage.html` is a minimal demo target, not a full site — its job is to make the 404 navigation testable.
-- Requested-path display shows the real host + path on http(s) (e.g. GitHub Pages) and deliberately falls back to a friendly placeholder on `file://` so local filesystem paths are never shown.
 
 ---
 
